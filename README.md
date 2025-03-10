@@ -40,15 +40,15 @@ python script.py replace-string input.txt "old_string" "new_string"
 ```
 
 ## 🛠 コードの説明
-1. validate_args(args, expected_args)
-    - コマンドの引数が正しいかチェック。
-    - 指定したファイルが存在しない場合はエラーを表示。
-2. reverse_file(input_path, output_path)
-    - input_path の内容を逆順にし、output_path に書き込む。
-3. copy_file(input_path, output_path)
-    - input_path の内容をそのまま output_path にコピー。
-4. duplicate_contents(input_path, n)
-    - input_path の内容を n 回繰り返して書き込む。
-5. replace_string(input_path, needle, newstring)
-    - input_path の中で needle を newstring に置き換える。
+### 1. validate_args(args, expected_args)
+- コマンドの引数が正しいかチェック。
+- 指定したファイルが存在しない場合はエラーを表示。
+### 2. reverse_file(input_path, output_path)
+- input_path の内容を逆順にし、output_path に書き込む。
+### 3. copy_file(input_path, output_path)
+- input_path の内容をそのまま output_path にコピー。
+### 4. duplicate_contents(input_path, n)
+- input_path の内容を n 回繰り返して書き込む。
+### 5. replace_string(input_path, needle, newstring)
+- input_path の中で needle を newstring に置き換える。
 
